@@ -1,0 +1,25 @@
+#first-div{
+    background-color: greenyellow;
+    height:20px;
+    width:500px;
+    margin:2vh auto;
+    border:5px solid red;
+    outline-offset: 15px;
+    outline:2px dotted red;  /* bir dis cerceve sekillendirmesinde bu satirdaki ifade aynen bir benzeri kullanilabilir. sadece bu satirdaki ifade yapmak istediklerimizi özetlemektedir.*/
+}  
+#second-div{
+
+    background-color:burlywood;
+    height:20px;
+    /* max-width:800px; */
+    min-width:500px;/* min-width ile max-width özellikleri verilen uzunluklarin sayfa kücülürken ve büyütüldügünde belli bir özellikte kalmasini saglamakta*/
+    margin:auto;
+}
+input{
+
+    margin:20px;
+    outline:2px solid rgb(0, 255, 55);
+    /* outline:none;  */ /*eger input icinde farkli bir renk istemiyorsak outline:none;yapamliyiz.*/
+}
+/* Bu derste combinators özelligi anlatildi. resim üzerinden
+descendant selector, child selector(>), adjacent sibling selector (+), general sibling selector(~) olmak üzere 4 özelligi var. */
